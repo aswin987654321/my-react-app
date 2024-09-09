@@ -1,0 +1,22 @@
+/* src/components/Layout.css */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .header nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header nav ul li {
+    margin: 0.5rem 0;
+  }
+}
