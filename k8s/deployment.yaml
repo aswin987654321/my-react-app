@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: my-app-container
-        image: azureacr2.azurecr.io/home1:latest  # Replace with your ACR image name
+        image: azureacr2.azurecr.io/home1:62  # Replace with your ACR image name
         ports:
         - containerPort: 80  # Port the container will expose
